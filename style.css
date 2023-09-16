@@ -1,0 +1,72 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 12px;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: rgb(27, 27, 27);
+    color: lightgray;
+    font-size: 20px;
+}
+.header{
+    background-color: #162E58;
+    color: white;
+}
+.header h1{
+    padding: 18px 25px;
+    font-size: 16px;
+}
+.header h2{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 23px;
+    /* border-bottom: 5px solid white; */
+}
+.grupos, .gols{
+    margin-top: 5px;
+    width: 50%;
+    background-color: rgba(45, 44, 51, 0.742);
+}
+.grupos h2{
+    font-weight: bold;
+    font-size: medium;
+    padding: 15px;
+}
+table{
+    width: 100%;
+    text-align: center;
+    padding: 5px;
+    border-collapse: collapse;
+}
+
+td{
+    border-top: 1px solid rgba(211, 211, 211, 0.197);
+    padding: 10px 0;
+    font-weight: bold;
+}
+.time img{
+    width: 24px;
+    height: 24px;
+}
+.borda{
+    border-left: 4px solid #4285F4;
+}
+.borda3{
+    border-left: 4px solid #FA7B17;
+}
+th{
+    color:#939393;
+    padding: 5px 15px;
+    font-weight: bold;
+}
+.gols1 th{
+    text-align: right;
+    /* padding-right: 2px; */
+}
+.gols1 img{
+    border-radius: 50%;
+    width: 60px;
+}
